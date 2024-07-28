@@ -1,7 +1,8 @@
 {
   "name": "hono-template",
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "@hono/node-server": "latest",
@@ -9,6 +10,8 @@
   },
   "devDependencies": {
     "@types/node": "latest",
-    "tsx": "latest"
-  }
+    "tsx": "latest",
+    "typescript": "^5.5.4"
+  },
+  "type": "module"
 }
