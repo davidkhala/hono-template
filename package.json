@@ -1,0 +1,14 @@
+{
+  "name": "hono-template",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "latest",
+    "hono": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "tsx": "latest"
+  }
+}
